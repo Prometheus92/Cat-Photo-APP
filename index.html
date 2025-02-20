@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>Cat photo app</title>
+    </head>
+    <body>
+        <main>
+            <h1>Cat Photo App</h1>
+            <section>
+                <h2>Cat Photos</h2>
+                <p>Everyone  loves <a href="#" target="_blank">cute cats</a> online!</p>
+                <p>See more <a href="#" target="_self">cat photos</a>in our gallery.</p>
+                <figure>
+                    <!--Add an image of a cute cat here!-->
+                    <img src="#" alt="a cute cat">
+                    <figcaption>Everyone loves these cuties!</figcaption>
+                </figure>
+            </section>
+            <!-- second section -->
+             <section>
+                <h2>Some Characteristics of Cats.</h2>
+                <h3>Things cats love:</h3>
+                <ul>
+                    <li>Cat nip</li>
+                    <li>Laser pointers</li>
+                    <li>lasagna</li>
+                </ul>
+                <figure>
+                    <!--Add an image of a slice of lasagna-->
+                    <img src="#" alt="A slice of lasagna">
+                    <figcaption>Cats <em>love</em> lasagna.</figcaption>
+                </figure>
+                <h3>Top 3 things cats hate:</h3>
+                <ol>
+                    <li>Flea treatment</li>
+                    <li>Thunder</li>
+                    <li>Other cats</li>
+                </ol>
+                <figure>
+                    <!--Add an image of a group of kittens-->
+                    <img src="#" alt="A group of angry cats">
+                    <figcaption>Cats <strong>hate</strong> other cats.</figcaption>                 
+                </figure>
+             </section>
+            <!-- second section -->
+             <section>
+                <h2>Cat Form</h2>
+                <!-- Add the location to which the form is going to submitted to. -->
+                <form action="#">
+                    <fieldset>
+                        <legend>Is your cat an indoor or outdoor cat?</legend>
+                        <input id="indoor" type="radio" name="indoor-outdoor" value="indoor"> <label for="indoor"> Indoor</label>
+                        <input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> <label for="outdoor"> Outdoor</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>What's your cat's personality?</legend>
+                        <input id="loving" type="checkbox" name="personality" value="loving"><label for="loving"> Loving</label>
+                        <input id="lazy" type="checkbox" name="personality" value="lazy"><label for="lazy"> Lazy</label>
+                        <input id="energetic" type="checkbox" name="personality" value="energetic"><label for="energetic"> Energetic</label>
+                    </fieldset>
+                    <input type="text" id="cat_url" placeholder="cat photo url">
+                    <button type="submit">Submit</button>
+                </form>
+             </section>
+        </main>
+    </body>
+</html>
